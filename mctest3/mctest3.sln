@@ -1,0 +1,27 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mctest3", "mctest3\mctest3.vcxproj", "{DACB4C8E-49DB-4F1F-84F8-AEFC01A2A26B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DACB4C8E-49DB-4F1F-84F8-AEFC01A2A26B}.Debug|x64.ActiveCfg = Debug|Win32
+		{DACB4C8E-49DB-4F1F-84F8-AEFC01A2A26B}.Debug|x86.ActiveCfg = Debug|Win32
+		{DACB4C8E-49DB-4F1F-84F8-AEFC01A2A26B}.Debug|x86.Build.0 = Debug|Win32
+		{DACB4C8E-49DB-4F1F-84F8-AEFC01A2A26B}.Release|x64.ActiveCfg = Release|Win32
+		{DACB4C8E-49DB-4F1F-84F8-AEFC01A2A26B}.Release|x86.ActiveCfg = Release|Win32
+		{DACB4C8E-49DB-4F1F-84F8-AEFC01A2A26B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F4B75DA-17DC-4B8A-B79C-48587DB7056E}
+	EndGlobalSection
+EndGlobal

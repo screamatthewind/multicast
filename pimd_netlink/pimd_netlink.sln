@@ -1,0 +1,27 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pimd_netlink", "pimd_netlink\pimd_netlink.vcxproj", "{E5778DC7-62EE-4FCD-8E0C-A9BF59FDC433}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5778DC7-62EE-4FCD-8E0C-A9BF59FDC433}.Debug|x64.ActiveCfg = Debug|Win32
+		{E5778DC7-62EE-4FCD-8E0C-A9BF59FDC433}.Debug|x86.ActiveCfg = Debug|Win32
+		{E5778DC7-62EE-4FCD-8E0C-A9BF59FDC433}.Debug|x86.Build.0 = Debug|Win32
+		{E5778DC7-62EE-4FCD-8E0C-A9BF59FDC433}.Release|x64.ActiveCfg = Release|Win32
+		{E5778DC7-62EE-4FCD-8E0C-A9BF59FDC433}.Release|x86.ActiveCfg = Release|Win32
+		{E5778DC7-62EE-4FCD-8E0C-A9BF59FDC433}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33AF20AF-0528-4DA2-89D7-D45B9AED7374}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,30 @@
+#!/bin/sh
+# The following two lines enable chkconfig(1) to manipulate this script
+# chkconfig: 2345 99 01
+# description: control mctest3
+
+PROG="/usr/sbin/mctest3 -n eth0 -f /etc/pocket_inet_channel_list.csv"
+NAME=mctest3
+
+case "$1" in
+ start)
+        echo -n "Starting mctest3: "
+
+        $PROG > /dev/null 2>&1 &
+        echo 'ok'
+        exit 0
+        ;;
+  stop)
+        echo -n "Stopping mctest3: "
+        killall $NAME
+        echo 'ok'
+        exit 0
+        ;;
+restart) $0 stop;
+        sleep 2;
+        exec $0 start
+        ;;
+     *) echo "Usage: mctest3 {start|stop|restart}"
+        exit 0
+        ;;
+esac

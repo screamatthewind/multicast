@@ -1,0 +1,40 @@
+#! /bin/sh
+### BEGIN INIT INFO
+# Provides:          mc_qm_send
+# Required-Start:    $remote_fs $syslog
+# Required-Stop:     $remote_fs $syslog
+# Default-Start:     35
+# Default-Stop:      0 6
+### END INIT INFO
+
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+PROG=/usr/local/sbin/mc_qm_send
+NAME=mc_qm_send
+DESC=mc_qm_send
+
+test -x $PROG || exit 0
+
+case "$1" in
+  start)
+        echo -n "Starting $DESC: "
+        $PROG -n tap7 > /dev/null 2>&1 &
+        echo "$NAME."
+        ;;
+  stop)
+        echo -n "Stopping $DESC: "
+        killall $NAME
+        echo "$NAME."
+        ;;
+  restart|force-reload)
+        echo -n "Restarting $DESC: "
+        killall $NAME
+        sleep 1
+        $PROG -n tap7 > /dev/null 2>&1 &
+        echo "$NAME."
+        ;;
+     *) echo "Usage: $NAME {start|stop|restart}"
+        exit 0
+        ;;
+esac
+
+exit 0

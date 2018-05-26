@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{a1c86e58-eb55-4cad-96a6-bfb60adc4f18}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{91afad2d-1636-4bbd-bada-f01b077456d0}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{f8115729-bfab-4c3c-bacd-45eb1e31f7f5}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Make files">
+      <UniqueIdentifier>{00dd6a93-f593-4a7b-93c4-bdaac6b4f166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{963396b5-bfb0-4b43-aa4f-eabb5e863c05}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="debug.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="release.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="pimd_netlink-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="pimd_netlink-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\callout.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\config.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\debug.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dvmrp_proto.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\igmp.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\igmp_proto.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\inet.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kern.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mrt.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netlink.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pim.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pim_proto.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\route.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rp.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timer.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\trace.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vif.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\strlcat.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\strlcpy.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\strtonum.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\config.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\debug.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\defs.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dvmrp.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gcc_Debug.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gcc_Release.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\igmpv2.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\igmpv3.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mrt.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pathnames.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pimd.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\queue.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rsrr_var.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\trace.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vif.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

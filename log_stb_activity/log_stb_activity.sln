@@ -1,0 +1,27 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "log_stb_activity", "log_stb_activity\log_stb_activity.vcxproj", "{F9BE8A16-FCD2-4F86-A74D-11D473A2E1DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9BE8A16-FCD2-4F86-A74D-11D473A2E1DE}.Debug|x64.ActiveCfg = Debug|Win32
+		{F9BE8A16-FCD2-4F86-A74D-11D473A2E1DE}.Debug|x86.ActiveCfg = Debug|Win32
+		{F9BE8A16-FCD2-4F86-A74D-11D473A2E1DE}.Debug|x86.Build.0 = Debug|Win32
+		{F9BE8A16-FCD2-4F86-A74D-11D473A2E1DE}.Release|x64.ActiveCfg = Release|Win32
+		{F9BE8A16-FCD2-4F86-A74D-11D473A2E1DE}.Release|x86.ActiveCfg = Release|Win32
+		{F9BE8A16-FCD2-4F86-A74D-11D473A2E1DE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {645631D2-CA18-4026-8550-DE38B6018D1A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{fb8f1390-e6b8-4181-94b4-968cb2640a0b}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{7390b659-9997-4e7c-9bd0-0241a5ac547b}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{6adb78ae-8651-4913-9e65-498a70e0bfbc}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Make files">
+      <UniqueIdentifier>{0c46b0a0-da27-4645-b8f5-6842bf9d4196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{090a6b96-2356-4275-9cae-b324da478f0f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="debug.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="release.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="mctest3-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="mctest3-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\bitstream.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ChannelUtils.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CircularBuffer.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CsvWriter.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\debug.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Demux.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\elementaryStream.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ES_AAC.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ES_AC3.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ES_h264.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ES_hevc.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ES_MPEGAudio.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ES_MPEGVideo.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ES_Subtitle.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ES_Teletext.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\i18n.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Logger.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mutex.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PracticalSocket.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RunningStats.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StreamReader.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\thread.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tools.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tsDemuxer.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tsPacket.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tsTable.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mctest3.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\defs.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\queue.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\csv_reader.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StatsWriter.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\findfirst.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\spec.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\bitstream.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChannelUtils.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CircularBuffer.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CsvWriter.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\debug.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Demux.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\elementaryStream.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ES_AAC.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ES_AC3.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ES_h264.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ES_hevc.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ES_MPEGAudio.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ES_MPEGVideo.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ES_Subtitle.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ES_Teletext.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\i18n.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Logger.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PracticalSocket.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RunningStats.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StreamReader.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tsDemuxer.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StatsWriter.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\findfirst.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spec.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

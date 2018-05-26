@@ -1,0 +1,27 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "save_stb_stats", "save_stb_stats\save_stb_stats.vcxproj", "{9ECFDDAD-156D-4A1C-B9B9-972EB9434F68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9ECFDDAD-156D-4A1C-B9B9-972EB9434F68}.Debug|x64.ActiveCfg = Debug|Win32
+		{9ECFDDAD-156D-4A1C-B9B9-972EB9434F68}.Debug|x86.ActiveCfg = Debug|Win32
+		{9ECFDDAD-156D-4A1C-B9B9-972EB9434F68}.Debug|x86.Build.0 = Debug|Win32
+		{9ECFDDAD-156D-4A1C-B9B9-972EB9434F68}.Release|x64.ActiveCfg = Release|Win32
+		{9ECFDDAD-156D-4A1C-B9B9-972EB9434F68}.Release|x86.ActiveCfg = Release|Win32
+		{9ECFDDAD-156D-4A1C-B9B9-972EB9434F68}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C891B62-0DD9-43DA-B6F6-AA17A215EEE4}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{762ABCA4-254F-4F28-867A-FED6D39D9C3A}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="VisualGDBPackageDefinitions">
+    <ToolchainID>com.sysprogs.toolchain.default-gcc</ToolchainID>
+  </PropertyGroup>
+  <ImportGroup Label="VisualGDBFindComponents">
+    <Import Project="$(LOCALAPPDATA)\VisualGDB\FindComponents.props" />
+  </ImportGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <NMakeIncludeSearchPath>$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\lewes-pi-wifi\0000\include\c++\4.9;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\lewes-pi-wifi\0000\include\arm-linux-gnueabihf\c++\4.9;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\lewes-pi-wifi\0000\include\c++\4.9\backward;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\lewes-pi-wifi\0001\include;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\lewes-pi-wifi\0003\include;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\lewes-pi-wifi\0002\include-fixed;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\lewes-pi-wifi\0000\include\arm-linux-gnueabihf;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\lewes-pi-wifi\0000\include;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(ProjectDir)\gcc_Debug.h;$(VISUALGDB_DIR)\gcc_compat.h;$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /build "$(ProjectPath)" "/solution:$(SolutionPath)"  "/config:$(Configuration)" "/platform:$(Platform)"</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /clean "$(ProjectPath)" "/solution:$(SolutionPath)"  "/config:$(Configuration)" "/platform:$(Platform)"</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /rebuild "$(ProjectPath)" "/solution:$(SolutionPath)"  "/config:$(Configuration)" "/platform:$(Platform)"</NMakeReBuildCommandLine>
+    <NMakeOutput>$(ProjectDir)mc_qm_recv-Debug.vgdbsettings</NMakeOutput>
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <NMakePreprocessorDefinitions>__VisualGDB_CFG_Debug;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <NMakeIncludeSearchPath>$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\lewes-pi-wifi\0000\include\c++\4.9;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\lewes-pi-wifi\0000\include\arm-linux-gnueabihf\c++\4.9;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\lewes-pi-wifi\0000\include\c++\4.9\backward;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\lewes-pi-wifi\0002\include;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\lewes-pi-wifi\0003\include;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\lewes-pi-wifi\0005\include-fixed;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\lewes-pi-wifi\0000\include\arm-linux-gnueabihf;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\lewes-pi-wifi\0000\include;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\lewes-pi-wifi\0000\include\c++\4.9\tr1;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\lewes-pi-wifi\0000\include\linux;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(ProjectDir)\gcc_Release.h;$(VISUALGDB_DIR)\gcc_compat.h;$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /build "$(ProjectPath)" "/solution:$(SolutionPath)"  "/config:$(Configuration)" "/platform:$(Platform)"</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /clean "$(ProjectPath)" "/solution:$(SolutionPath)"  "/config:$(Configuration)" "/platform:$(Platform)"</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /rebuild "$(ProjectPath)" "/solution:$(SolutionPath)"  "/config:$(Configuration)" "/platform:$(Platform)"</NMakeReBuildCommandLine>
+    <NMakeOutput>$(ProjectDir)mc_qm_recv-Release.vgdbsettings</NMakeOutput>
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <NMakePreprocessorDefinitions>__VisualGDB_CFG_Release;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="src\CsvWriter.h" />
+    <ClInclude Include="src\i18n.h" />
+    <ClInclude Include="src\lirc_send.h" />
+    <ClInclude Include="src\Logger.h" />
+    <ClInclude Include="src\Multicaster.h" />
+    <ClInclude Include="src\thread.h" />
+    <ClInclude Include="src\tools.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+    <None Include="debug.mak" />
+    <None Include="release.mak" />
+    <None Include="mc_qm_recv-Debug.vgdbsettings" />
+    <None Include="mc_qm_recv-Release.vgdbsettings" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\CsvWriter.cpp" />
+    <ClCompile Include="src\i18n.cpp" />
+    <ClCompile Include="src\lirc_client.cpp" />
+    <ClCompile Include="src\lirc_send.cpp" />
+    <ClCompile Include="src\Logger.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Multicaster.cpp" />
+    <ClCompile Include="src\thread.cpp" />
+    <ClCompile Include="src\tools.cpp" />
+  </ItemGroup>
+</Project>

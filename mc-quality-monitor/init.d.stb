@@ -1,0 +1,30 @@
+#!/bin/sh
+# The following two lines enable chkconfig(1) to manipulate this script
+# chkconfig: 2345 99 01
+# description: control mc_qm_recv
+
+PROG=/usr/sbin/mc_qm_recv
+NAME=mc_qm_recv
+
+case "$1" in
+ start)
+        echo -n "Starting mc_qm_recv: "
+
+        $PROG > /dev/null 2>&1 &
+        echo 'ok'
+        exit 0
+        ;;
+  stop)
+        echo -n "Stopping mc_qm_recv: "
+        killall $NAME
+        echo 'ok'
+        exit 0
+        ;;
+restart) $0 stop;
+        sleep 2;
+        exec $0 start
+        ;;
+     *) echo "Usage: mc_qm_recv {start|stop|restart}"
+        exit 0
+        ;;
+esac
